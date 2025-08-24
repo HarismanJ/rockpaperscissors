@@ -38,7 +38,6 @@ function playRound(){
 
 
 function playGame(){
-    //let replay=prompt("Do you want to continue? (y/n)");
     for(let i=0; i<5; i++){
         playRound();
     }
@@ -53,3 +52,5 @@ function playGame(){
 
 
 playGame();
+
+
